@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+#container{
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
