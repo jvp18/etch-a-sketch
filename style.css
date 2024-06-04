@@ -10,10 +10,31 @@ body {
     box-sizing: inherit;
 }
 
+#button-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+
+#button-grid {
+    font-size: 20px;
+    font-weight: 800;
+    color: azure;
+    border-radius: 15px;
+    border-color: rgb(185, 138, 229);
+    background-color: rgb(185, 138, 229);
+    border-style:groove;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
 #container{
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    max-width: 800px;
     margin: auto;
 }
