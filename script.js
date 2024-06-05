@@ -13,6 +13,7 @@ function askUser () {
 
 
 function createGrid () {
+    removeGrid ()
     const boxNum = askUser()
     const squareSize = boxWidth/boxNum;
     for (let i=0; i<boxNum; i++) {
@@ -24,5 +25,13 @@ function createGrid () {
     }
 }
 
+function removeGrid () {
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
+}
+
 const button = document.querySelector("#button-grid");
 button.addEventListener("click", createGrid)
+
+
