@@ -20,7 +20,8 @@ function createGrid () {
         for (let j=0; j<boxNum; j++) {
             const box = document.createElement("div");
             box.setAttribute("style", `outline: solid gray 1.5px; min-width: ${squareSize}px; height: ${squareSize}px; flex: 1`);
-            container.appendChild(box);
+            container.appendChild(box);   
+            box.addEventListener("mouseover", addColor)
         }
     }
 }
@@ -31,7 +32,13 @@ function removeGrid () {
     }
 }
 
+function addColor (e) {
+    const rgbColor1 = Math.floor(Math.random() *255)
+    const rgbColor2 = Math.floor(Math.random() *255)
+    const rgbColor3 = Math.floor(Math.random() *255)
+    e.target.style.background = `rgb(${rgbColor1}, ${rgbColor2}, ${rgbColor3})`;
+}
+
 const button = document.querySelector("#button-grid");
 button.addEventListener("click", createGrid)
-
 
