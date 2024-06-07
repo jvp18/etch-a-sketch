@@ -14,8 +14,6 @@ body {
 
 #main-container {
     display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
     flex-direction: column;
     width: 1000px;
     height: 1000px;
