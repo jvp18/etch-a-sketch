@@ -5,8 +5,11 @@ container.setAttribute("style", `max-width: ${boxWidth}px`);
 
 function askUser () {
     let userPrompt = Number(prompt("How many number of squares per side would you like in the grid?"));
+    while (isNaN(userPrompt)) {
+        userPrompt = Number(prompt("Your entry was not a number! Please enter again:"));
+    }
     while (userPrompt > 100) {
-        userPrompt = Number(prompt("Maximum of 100 squares per side! Please enter a new amount:"));
+        userPrompt = Number(prompt("Maximum of 100 squares per side! Please enter again:"));
     }
     return userPrompt
 }
