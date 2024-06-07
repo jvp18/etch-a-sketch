@@ -14,6 +14,8 @@ body {
 
 #main-container {
     display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
     flex-direction: column;
     width: 1000px;
     height: 1000px;
@@ -22,19 +24,12 @@ body {
     background-color: white;
 }
 
-#title-container {
-    display: flex;
-    background-color: aqua;
-}
-
-
 #title {
     display: flex;
     margin: auto;
-    padding: 25px 0;
+    padding-top: 25px;
     font-size: 32px;
     font-weight: 600;
-    
 }
 
 
