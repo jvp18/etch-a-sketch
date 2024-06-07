@@ -1,6 +1,6 @@
 Etch a Sketch Project
 
-In this project, I applied the EvenListener and Event Handler methods. I Initially had too look up Etch a Sketch since I had no idea what this was about before. After grasping the concept, I was able to plan the components out for the project and started coding.
+In this project, I applied the EvenListener and Event Handler methods. I Initially had too look up Etch a Sketch since I had no idea what this was about. After grasping the concept, I was able to plan the components out for the project and started coding.
 
 This project has a pretty straightforward UI. I may edit it in the future to make it more presentable. For now, it contains a title, a button and a grid that will pop up once an input is given by the user after clicking the button.
 
