@@ -3,32 +3,60 @@ html {
 }
 
 body {
-    margin: 10px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(246, 255, 255);
 }
 
 *, ::before, ::after {
     box-sizing: inherit;
 }
 
+#main-container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+#title-container {
+    display: flex;
+    background-color: aqua;
+}
+
+
+#title {
+    display: flex;
+    margin: auto;
+    padding: 25px 0;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+
 #button-container {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 
 #button-grid {
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 600;
     color: black;
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: rgb(235, 235, 235);
     background-color: rgb(235, 235, 235);
     border-style:groove;
-    width: 150px;
-    height: 50px;
+    width: 90px;
+    height: 30px;
     cursor: pointer;
 }
 
