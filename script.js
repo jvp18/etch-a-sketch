@@ -1,4 +1,4 @@
-const boxWidth = 700;
+const boxWidth = 1000;
 
 const container = document.querySelector("#container");
 container.setAttribute("style", `max-width: ${boxWidth}px`);
@@ -22,7 +22,7 @@ function createGrid () {
     for (let i=0; i<boxNum; i++) {
         for (let j=0; j<boxNum; j++) {
             const box = document.createElement("div");
-            box.setAttribute("style", `outline: solid gray 1px; min-width: ${squareSize}px; height: ${squareSize}px; flex: 1`);
+            box.setAttribute("style", `outline: solid gray 1px; min-width: ${squareSize}px; min-height: ${squareSize}px; flex: 1`);
             container.appendChild(box);   
             box.addEventListener("mouseover", addColor)
         }
