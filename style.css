@@ -37,7 +37,7 @@ body {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    max-height: 100px;
+    max-height: 50px;
 }
 
 
