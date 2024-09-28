@@ -22,6 +22,7 @@ body {
     margin: auto;
     padding-bottom: 100px;
     background-color: white;
+    align-items: center;
 }
 
 #title {
@@ -36,7 +37,6 @@ body {
     display: flex;
     flex: 1 1 auto;
     justify-content: center;
-    padding-top: 25px;
     max-height: 100px;
 }
 
@@ -58,6 +58,6 @@ body {
     display: flex;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    margin: auto;
-    max-height: 850px;
+    margin: 25px 50px 0px;
+    max-height: 700px;
 }
